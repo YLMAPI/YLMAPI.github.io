@@ -1,0 +1,30 @@
+body {
+    font-family: Roboto;
+    padding: 0;
+}
+
+#main-wip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url("/img/background.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: rgba(255, 255, 255, 0.87);
+    text-align: center;
+}
+#main-wip-inner {
+    position: absolute;
+    top: 50vh;
+    left: 0;
+    width: 100vw;
+    transform: translateY(-50%);
+    background: rgba(45, 45, 45, 0.75);
+}
+
+h1 {
+    font-weight: 300;
+}
